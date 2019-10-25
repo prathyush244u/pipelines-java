@@ -10,7 +10,7 @@ pool:
   vmImage: 'ubuntu-16.04' # other options: 'macOS-10.13', 'vs2017-win2016'
  
 steps:
-- task: Maven@4
+- task: Maven@5
   inputs:
     mavenPomFile: 'pom.xml'
     mavenOptions: '-Xmx3072m'
