@@ -17,6 +17,19 @@
     </dependency>
   </dependencies>
 
+<repositories>	
+  <repository>
+  <id>dev-azure-com-prathyushpavan-maven-packages</id>
+  <url>https://pkgs.dev.azure.com/prathyushpavan/_packaging/Maven-packages/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+ </repository>
+<repositories>
+
   <build>
     <finalName>helloworld</finalName>
     <plugins>
